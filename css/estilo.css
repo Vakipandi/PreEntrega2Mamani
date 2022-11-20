@@ -1,0 +1,21 @@
+body{
+    background:linear-gradient(
+        0deg,
+        rgb(133, 129, 129),
+        rgb(172, 161, 161)
+    );
+}
+
+.produc{
+    transition: all 0.5s;
+}
+
+.produc:hover{
+    transform: scale(1.1,1.1);
+}
+.formulario{
+    background-color: rgb(194, 187, 180);
+    border-radius: 2rem;
+}
+
+
