@@ -12,10 +12,17 @@ body{
 
 .produc:hover{
     transform: scale(1.1,1.1);
+    border:solid 1px white;
+    border-radius: 1rem;
 }
 .formulario{
-    background-color: rgb(194, 187, 180);
-    border-radius: 2rem;
+    background-color: rgb(70, 56, 42);
+    border-radius: 1rem;
+    color: rgb(243, 211, 211);
+}
+
+.card{
+    border: none;
 }
 
 
