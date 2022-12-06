@@ -22,7 +22,5 @@ body{
 }
 
 .card{
-    border: none;
+    border: transparent;
 }
-
-
