@@ -1,26 +1,25 @@
-body{
-    background:linear-gradient(
-        0deg,
-        rgb(133, 129, 129),
-        rgb(172, 161, 161)
-    );
-}
+body {
+  background: linear-gradient(0deg, #858181, #aca1a1); }
 
-.produc{
-    transition: all 0.5s;
-}
+.produc {
+  transition: all 0.5s; }
+  .produc .produc:hover {
+    transform: scale(1.1, 1.1);
+    border: solid 1px white;
+    border-radius: 0.5rem; }
 
-.produc:hover{
-    transform: scale(1.1,1.1);
-    border:solid 1px white;
-    border-radius: 1rem;
-}
-.formulario{
-    background-color: rgb(70, 56, 42);
-    border-radius: 1rem;
-    color: rgb(243, 211, 211);
-}
+form, .botonn {
+  background-color: #2f2f2f;
+  border-radius: 1rem;
+  color: #b7a6b4; }
 
-.card{
-    border: transparent;
-}
+.botonn {
+  color: blue;
+  font-weight: bold;
+  font-size: 1.5rem;
+  background-color: #9898cf;
+  margin: 2rem;
+  padding: 1rem; }
+  .botonn:hover {
+    background-color: blueviolet;
+    color: #dcc1c1; }

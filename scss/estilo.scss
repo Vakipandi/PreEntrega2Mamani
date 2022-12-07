@@ -1,0 +1,46 @@
+@import "variables";
+
+
+
+body{
+    background: $fondo  ;
+}
+
+.produc{
+    transition: all 0.5s;
+
+    .produc:hover{
+    transform: scale(1.1,1.1);
+    border:solid 1px white;
+    border-radius: 0.5rem;
+}
+}
+
+@mixin fou($rad, $colo){
+    background-color: $colorform;
+    border-radius: $rad ;
+    color: $colo ;
+}
+
+form{
+    @include fou($radio,$colorletra);
+}
+
+
+.botonn{
+    @extend form;
+    color: blue;
+    font-weight: bold;
+    font-size:1.5rem ;
+    background-color: rgb(152, 152, 207);
+    margin:2rem;
+    padding: 1rem;
+    &:hover{
+        background-color:blueviolet ;
+        color: rgb(220, 193, 193);
+    }
+
+    
+}
+
+
