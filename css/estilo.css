@@ -1,5 +1,5 @@
 body {
-  background: linear-gradient(0deg, #858181, #aca1a1); }
+  background: linear-gradient(0deg, #bc8231, #edecae); }
 
 .produc {
   transition: all 0.5s; }
@@ -23,3 +23,10 @@ form, .botonn {
   .botonn:hover {
     background-color: blueviolet;
     color: #dcc1c1; }
+
+.produc {
+  transition: all 0.5s; }
+  .produc:hover {
+    transform: scale(1.1, 1.1);
+    border: solid 2px #984848;
+    border-radius: 1rem; }

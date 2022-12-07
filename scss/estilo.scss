@@ -43,4 +43,13 @@ form{
     
 }
 
+.produc{
+    transition: all 0.5s;
+    &:hover{
+    transform: scale(1.1,1.1);
+    border:solid 2px rgb(152, 72, 72);
+    border-radius: 1rem;
+    }
+}
+
 
